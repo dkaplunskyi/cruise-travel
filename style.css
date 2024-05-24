@@ -1,22 +1,23 @@
-body{
+* {
   padding: 0;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-header{
+/* HEADER */
+header {
   background-color: #1f2937;
   height: 76px;
 }
 
-nav{
+nav {
   height: 76px;
   max-width: 992px;
   margin: auto;
   line-height: 76px;
 }
 
-nav ul{
+nav ul {
   list-style: none;
   display: flex;
   gap: 16px;
@@ -24,12 +25,49 @@ nav ul{
   margin: 0;
 }
 
-nav ul li a{
+nav ul li a {
   color: #E5E7EB;
   font-size: 18px;
   text-decoration: none;
 }
 
-nav .logo{
+nav .logo {
   margin-right: auto;
+}
+
+/* MAIN HERO SECTION */
+main {
+  background-color: #1f2937;
+}
+
+main .container {
+  color: #E5E7EB;
+  max-width: 992px;
+  margin: auto;
+  padding: 60px 0;
+  display: flex;
+  gap: 20px;
+}
+
+main .container .wrapper {
+  flex-basis: 50%;
+}
+
+main .wrapper.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+main .content h1{
+  font-size: 48px;
+}
+
+main button{
+  color:#E5E7EB;
+  background-color: #3882F6;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 25px;
 }
