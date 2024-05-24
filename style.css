@@ -7,22 +7,19 @@
 /* HEADER */
 header {
   background-color: #1f2937;
-  height: 76px;
 }
 
 nav {
-  height: 76px;
   max-width: 992px;
   margin: auto;
-  line-height: 76px;
 }
 
 nav ul {
   list-style: none;
   display: flex;
+  align-items: center;
   gap: 16px;
-  padding: 0;
-  margin: 0;
+  padding: 20px 0;
 }
 
 nav ul li a {
@@ -35,16 +32,21 @@ nav .logo {
   margin-right: auto;
 }
 
+nav .logo a img{
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+}
+
 /* MAIN HERO SECTION */
 main {
   background-color: #1f2937;
 }
 
 main .container {
-  color: #E5E7EB;
   max-width: 992px;
   margin: auto;
-  padding: 60px 0;
+  padding: 80px 0;
   display: flex;
   gap: 20px;
 }
@@ -62,6 +64,11 @@ main .wrapper.content {
 
 main .content h1{
   font-size: 48px;
+  color: #f9faf8;
+}
+
+main .container p{
+  color: #E5E7EB;
 }
 
 main button{
