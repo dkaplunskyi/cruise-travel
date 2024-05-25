@@ -80,25 +80,6 @@ main button {
 }
 
 /* explore-section */
-/* section .container {
-  max-width: 992px;
-  height: 600px;
-  background-color: antiquewhite;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-.image-wrapper{
-  flex-basis: 100px;
-}
-
-.image-wrapper img{
-  width: 100%;
-  height: 100%;
-} */
-
 section.container{
   max-width: 992px;
   margin: 0 auto;
@@ -112,7 +93,6 @@ section.container{
 
 section.container .wrapper{
   display: flex;
-  align-items: center;
   gap: 30px;
 }
 
@@ -131,4 +111,28 @@ section.container .card p{
   font-size: 0.9rem;
   padding-top: 10px;
   text-align: center;
+}
+
+/* TESTIMONIALS SECTIONS */
+section.testimonials{
+  background-color: #E5E7EB;
+  display: flex;
+}
+
+section.testimonials .container{
+  margin: 0 auto;
+  padding: 80px 0;
+  flex-basis: 650px;
+}
+
+section.testimonials .container .comment{
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  text-align: justify;
+}
+
+section.testimonials .container .comment-author{
+  text-align: right;
+  font-weight: bold;
 }
