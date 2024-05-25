@@ -136,3 +136,29 @@ section.testimonials .container .comment-author {
   text-align: right;
   font-weight: bold;
 }
+
+/* FOOTER */
+footer {
+  color: #E5E7EB;
+  padding: 110px 0;
+}
+
+footer .container {
+  max-width: 992px;
+  background-color: #3882F6;
+  margin: 0 auto;
+  padding: 60px 100px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .container button {
+  color: #E5E7EB;
+  background-color: #3882F6;
+  border: 2px solid #E5E7EB;
+  border-radius: 5px;
+  padding: 10px 25px;
+  cursor: pointer;
+}
