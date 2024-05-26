@@ -34,7 +34,7 @@ nav ul {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 30px;
   padding: 20px 0;
 }
 
@@ -57,11 +57,13 @@ main .container {
   margin: auto;
   padding: 80px 0;
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
   gap: 20px;
 }
 
 main .container .wrapper {
-  flex-basis: 50%;
+  flex-basis: 550px;
 }
 
 main .container .wrapper img {
@@ -73,6 +75,12 @@ main .wrapper.content {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  min-height: 265px;
+padding-left: 20px;
+}
+
+main .wrapper.main-img{
+  flex-grow: 1;
 }
 
 main .content h1 {
